@@ -1,23 +1,24 @@
-html, html * {
-    color: #eeeeee !important;
-    background-color: #222222 !important;
+ * {
+    color: #fdfdfd !important;
+    background-color: #202020 !important;
   }
-  nav {
-    box-shadow: 0px 10px 10px 0px rgba(132, 144, 255, 0.2);
+  html{
+
+  }
+  .navbar {
+    color: #fdfdfd !important;
+    background-color: #202020 !important;
+    box-shadow: 0px 10px 10px 0px rgba(157, 167, 255, 0.2);
   }
   span{
-      background: #222222;
+      background: #202020 ;
       color: #eeeeee !important;
   }
-  img, video {
-      z-index: 1
-    }
+
   * {
       border-color: #555555 !important
     }
-  cite, cite * {
-      color: #029833 !important
-    }
+
   :link, :link * {
       color: #2864b9 !important
     }
@@ -27,14 +28,22 @@ html, html * {
   a {
       background-color: rgba(255, 255, 255, 0.01) !important
     }
+    h1,h2,h3,h4,h5,h6{
+      color: #fdfdfd !important;
+    background-color: #202020 !important;
+    }
   :visited, :visited * {
-      color: rgb(173, 59, 207) !important
+      color: #2864b9 !important;
     }
   html, body, input, select, button {
-      background-image: none !important
+      background-image: none !important;
     }
+    
   
-  video {
+  video,img {
     background-color: transparent !important;
   }
   
+  .ytp-chrome-controls{
+    background: transparent !important;
+  }
